@@ -1,0 +1,27 @@
+{
+  "name": "testaddon",
+  "version": "1.0.0",
+  "description": "C++ addons for NodeJs using N-API",
+  "main": "app.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsabunkar/cpp_addon_nodejs_N-API.git"
+  },
+  "author": "tejas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsabunkar/cpp_addon_nodejs_N-API/issues"
+  },
+  "homepage": "https://github.com/tsabunkar/cpp_addon_nodejs_N-API#readme",
+  "devDependencies": {
+    "node-gyp": "^4.0.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.6.3"
+  }
+}
